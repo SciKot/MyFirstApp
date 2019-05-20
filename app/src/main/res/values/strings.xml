@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="input_error">Ошибка ввода данных</string>
 </resources>
