@@ -30,6 +30,7 @@
         <Button
             android:id="@+id/buttonEnter"
             android:layout_weight="1"
+            android:layout_marginLeft="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/enter"/>
@@ -37,6 +38,7 @@
         <Button
             android:id="@+id/buttonRegister"
             android:layout_weight="1"
+            android:layout_marginRight="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/register"/>

@@ -21,7 +21,9 @@ public class AuthActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             if (isEmailValid()) {
-                //переход в приложение
+                showMessage(R.string.input_success);
+            } else {
+                showMessage(R.string.input_error);
             }
         }
     };
@@ -30,7 +32,7 @@ public class AuthActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             if (isEmailValid() && isPasswordValid()) {
-                //переход в приложение
+                showMessage(R.string.input_success);
             } else {
                 showMessage(R.string.input_error);
             }
